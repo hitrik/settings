@@ -1,0 +1,21 @@
+[user]
+	name = A*****
+	email = h****@**.ru
+	name = h*****
+[gui]
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  lg = log --graph --pretty=format:'%C(yellow bold)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+  type = cat-file -t
+  dump = cat-file -p
+  [color.status]
+	added = green
+	changed = yellow
+	untracked = magenta
+	deleted = red
+  [core]
+	editor = 'c:\\Program Files (x86)\\Notepad++\\notepad++.exe'
