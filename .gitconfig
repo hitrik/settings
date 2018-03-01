@@ -18,4 +18,4 @@
 	untracked = magenta
 	deleted = red
   [core]
-	editor = 'c:\\Program Files (x86)\\Notepad++\\notepad++.exe'
+	editor = 'vim'
